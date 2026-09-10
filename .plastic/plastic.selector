@@ -1,0 +1,3 @@
+repository "Blakewynn/Blakewynn@879348@cloud"
+  path "/"
+    smartbranch "/main"

@@ -1,8 +1,11 @@
 using System;
 
-[Serializable]
-public struct GachaPoolEntry
+namespace _Project.Scripts.Data.Runtime
 {
-    public CharacterDefinition character;
-    public float weight;
+    [Serializable]
+    public struct GachaPoolEntry
+    {
+        public CharacterDefinition character;
+        public float weight;
+    }
 }

@@ -1,20 +1,23 @@
 using UnityEngine;
-using _Project.Scripts.Data.Enums;
+using Enums;
 
-[CreateAssetMenu(fileName = "NewEnemy", menuName = "Blakewynn/Enemy Definition")]
-public class EnemyDefinition : ScriptableObject
+namespace _Project.Scripts.Data.Definitions
 {
-    [Header("Identity")]
-    public string enemyId;      // stable unique key, e.g. "footsoldier"
-    public string displayName;
-    [TextArea] public string flavorText;
-    public Sprite portrait;
+    [CreateAssetMenu(fileName = "NewEnemy", menuName = "Blakewynn/Enemy Definition")]
+    public class EnemyDefinition : ScriptableObject
+    {
+        [Header("Identity")]
+        public string enemyId;      // stable unique key, e.g. "footsoldier"
+        public string displayName;
+        [TextArea] public string flavorText;
+        public Sprite portrait;
 
-    [Header("Base Stats")]
-    public float baseHealth;
-    public float baseDps;
-    public float baseAttackSpeed;   // seconds per attack
+        [Header("Base Stats")]
+        public float baseHealth;
+        public float baseDps;
+        public float baseAttackSpeed;   // seconds per attack
 
-    [Header("Skills")]
-    public SkillDefinition[] skills;   // each skill has its own cooldown + mana cost
+        [Header("Skills")]
+        public SkillDefinition[] skills;   // each skill has its own cooldown + mana cost
+    }
 }

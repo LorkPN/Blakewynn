@@ -1,9 +1,12 @@
-public enum GearTier
+namespace _Project.Scripts.Data.Enums
 {
-    Common,
-    Uncommon,
-    Rare,
-    Epic,
-    Legendary,
-    Corrupted
+    public enum GearTier
+    {
+        Common,
+        Uncommon,
+        Rare,
+        Epic,
+        Legendary,
+        Corrupted
+    }
 }

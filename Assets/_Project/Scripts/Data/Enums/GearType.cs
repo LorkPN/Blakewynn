@@ -1,20 +1,23 @@
-public enum GearType
+namespace _Project.Scripts.Data.Enums
 {
-    Sword,
-    Mace,
-    Spear,
-    Axe,
-    Dagger,
-    ShortBow,
-    LongBow,
-    Staff,
-    Wand,
-    Breastplate,
-    Helmet,
-    Leggings,
-    Belt,
-    Cloak,
-    Necklace,
-    Boots,
-    Offhand
+    public enum GearType
+    {
+        Sword,
+        Mace,
+        Spear,
+        Axe,
+        Dagger,
+        ShortBow,
+        LongBow,
+        Staff,
+        Wand,
+        Breastplate,
+        Helmet,
+        Leggings,
+        Belt,
+        Cloak,
+        Necklace,
+        Boots,
+        Offhand
+    }
 }

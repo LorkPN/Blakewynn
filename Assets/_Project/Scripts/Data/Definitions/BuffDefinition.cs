@@ -1,12 +1,15 @@
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "NewBuff", menuName = "Blakewynn/Buff Definition")]
-public class BuffDefinition : ScriptableObject
+namespace _Project.Scripts.Data.Definitions
 {
-    [Header("Identity")]
-    public string buffId;
-    public string displayName;
-    [TextArea] public string description;
-    public Sprite buffIcon;
+    [CreateAssetMenu(fileName = "NewBuff", menuName = "Blakewynn/Buff Definition")]
+    public class BuffDefinition : ScriptableObject
+    {
+        [Header("Identity")]
+        public string buffId;
+        public string displayName;
+        [TextArea] public string description;
+        public Sprite buffIcon;
+    }
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using Enums;
+using Runtime;
 
 
 namespace _Project.Scripts.Data.Definitions
@@ -19,5 +20,6 @@ namespace _Project.Scripts.Data.Definitions
 
         [Header("Stats")]
         public GearEffect[] effects; // the buffs this gear applies when equipped
+        public GearEffectBehaviour[] effectBehaviours; // the behaviors this gear applies when equipped
     }
 }

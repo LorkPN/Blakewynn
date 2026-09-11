@@ -18,7 +18,7 @@ namespace _Project.Scripts.Data.Runtime
 
         [Header("Active Layer")]
         public GearSlot[] gearSlots;       // fixed size 4, per the doc
-        public string[] equippedSkillIds;  // if you ever let players choose which skills are "active," otherwise skip this
+        public CharacterSkill[] skills;
 
         [Header("Idle Layer")]
         public float idleInvestmentStat;   // separate multiplier boosting this character's idle-DPS contribution

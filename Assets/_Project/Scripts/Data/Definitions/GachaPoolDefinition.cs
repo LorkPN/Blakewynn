@@ -1,5 +1,6 @@
 using UnityEngine;
-using _Project.Scripts.Data.Enums;
+using Enums;
+using Runtime;
 
 
 namespace _Project.Scripts.Data.Definitions

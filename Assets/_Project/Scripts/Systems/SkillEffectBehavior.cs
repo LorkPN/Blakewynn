@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Project.Scripts.Systems.Runtime
+namespace _Project.Scripts.Systems
 {
     // Base class for skill-driven effects. Each concrete effect is its own
     // ScriptableObject asset — you create a new .cs class per distinct behavior,

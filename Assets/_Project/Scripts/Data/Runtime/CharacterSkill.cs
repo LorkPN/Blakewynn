@@ -1,16 +1,17 @@
 using UnityEngine;
+using System;
 
 namespace _Project.Scripts.Data.Runtime
 {
     [Serializable]
     public class CharacterSkill
     {
-        public string skillId;
+        public string skillLineId;
         public int level;
-        public CharacterSkill(string skillId)
+        public CharacterSkill(string skillLineId, int level)
         {
-            this.skillId = skillId;
-            level = 1;
+            this.skillLineId = skillLineId;
+            this.level = level;
         }
     }
 }

@@ -9,8 +9,4 @@ public class SkillDefinition : ScriptableObject
     public string displayName;
     [TextArea] public string description;
     public Sprite skillIcon;
-    public float cooldown; // seconds
-    public float manaCost; // how much mana this skill consumes when used
-    public EffectDefinition[] effects; // the effects this skill applies when used
-    public int level;
 }

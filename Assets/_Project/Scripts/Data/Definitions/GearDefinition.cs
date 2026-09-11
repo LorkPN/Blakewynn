@@ -14,8 +14,4 @@ public class GearDefinition : ScriptableObject
 
     [Header("Gear Type")]
     public GearType gearType;    // the type of gear this is — see GearType enum
-
-    [Header("Stats")]
-    public BuffDefinition[] buffs; // the buffs this gear applies when equipped
-    public int level;
 }

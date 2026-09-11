@@ -5,7 +5,7 @@ using _Project.Scripts.Data.Enums;
 public class EnemyDefinition : ScriptableObject
 {
     [Header("Identity")]
-    public string characterId;      // stable unique key, e.g. "knight_aldric" — use this for save data, NOT the display name
+    public string enemyId;      // stable unique key, e.g. "footsoldier"
     public string displayName;
     [TextArea] public string flavorText;
     public Sprite portrait;

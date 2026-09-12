@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using Assets._Project.Scripts.Systems;
+using Assets._Project.Scripts.Systems.Combat;
 
 
 namespace Assets._Project.Scripts.Data.Runtime

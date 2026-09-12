@@ -1,4 +1,4 @@
-namespace Assets._Project.Scripts.Systems
+namespace Assets._Project.Scripts.Systems.Combat
 {
     // Base class for skill-driven effects. Each concrete effect is its own
     // ScriptableObject asset — you create a new .cs class per distinct behavior,

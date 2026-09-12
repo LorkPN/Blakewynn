@@ -1,7 +1,8 @@
 using UnityEngine;
-using Enums;
+using Assets._Project.Scripts.Data.Enums;
 
-namespace _Project.Scripts.Data.Definitions
+
+namespace Assets._Project.Scripts.Data.Definitions
 {
     // [CreateAssetMenu] lets you right-click in the Project window and create
     // instances of this as .asset files — that's how designers (you) author

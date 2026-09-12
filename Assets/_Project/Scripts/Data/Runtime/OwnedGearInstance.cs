@@ -1,10 +1,9 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
-using Runtime;
+using Assets._Project.Scripts.Systems;
 
 
-namespace _Project.Scripts.Data.Runtime
+namespace Assets._Project.Scripts.Data.Runtime
 {
     [Serializable]
     public class OwnedGearInstance
@@ -17,7 +16,8 @@ namespace _Project.Scripts.Data.Runtime
         public int level;
 
         [Header("Active Layer")]
-        public GearEffect[] effects;
+        public GearEffect[] statEffects;
+        public GearEffectBehaviour[] complexEffects;
 
         [Header("Idle Layer")]
         public float idleDpsBoost;   // separate multiplier boosting this gear's idle-DPS contribution
@@ -26,11 +26,12 @@ namespace _Project.Scripts.Data.Runtime
         public DateTime acquiredAt;        // handy for "sort by newest," collection stats, etc.
 
         // Constructor for when a new pull happens
-        public OwnedGearInstance(string gearId, int effectCount)
+        public OwnedGearInstance(string gearId, int statEffectCount, int complexEffectCount)
         {
             this.gearId = gearId;
             level = 1;
-            effects = new GearEffect[effectCount];
+            statEffects = new GearEffect[statEffectCount];
+            complexEffects = new GearEffectBehaviour[complexEffectCount];
             idleDpsBoost = 0f;
             acquiredAt = DateTime.UtcNow;
         }

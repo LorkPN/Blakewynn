@@ -1,6 +1,7 @@
 using UnityEngine;
 
-namespace _Project.Scripts.Data.Definitions
+
+namespace Assets._Project.Scripts.Data.Definitions
 {
     [CreateAssetMenu(fileName = "IdleFloorDefinition", menuName = "Definitions/IdleFloor")]
     public class IdleFloorDefinition : ScriptableObject

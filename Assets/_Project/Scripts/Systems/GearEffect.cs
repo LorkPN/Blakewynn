@@ -1,7 +1,8 @@
 using System;
-using Data.Enums;
+using Assets._Project.Scripts.Data.Enums;
 
-namespace _Project.Scripts.Systems
+
+namespace Assets._Project.Scripts.Systems
 {
     [Serializable]
     public struct GearEffect

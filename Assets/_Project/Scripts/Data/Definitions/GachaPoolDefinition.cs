@@ -1,9 +1,9 @@
 using UnityEngine;
-using Enums;
-using Runtime;
+using Assets._Project.Scripts.Data.Enums;
+using Assets._Project.Scripts.Data.Runtime;
 
 
-namespace _Project.Scripts.Data.Definitions
+namespace Assets._Project.Scripts.Data.Definitions
 {
     [CreateAssetMenu(fileName = "NewGachaPool", menuName = "Blakewynn/Gacha Pool")]
     public class GachaPoolDefinition : ScriptableObject

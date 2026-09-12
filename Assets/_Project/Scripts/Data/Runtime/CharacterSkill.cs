@@ -1,7 +1,8 @@
 using UnityEngine;
 using System;
 
-namespace _Project.Scripts.Data.Runtime
+
+namespace Assets._Project.Scripts.Data.Runtime
 {
     [Serializable]
     public class CharacterSkill

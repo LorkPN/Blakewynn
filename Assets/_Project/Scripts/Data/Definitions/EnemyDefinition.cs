@@ -1,7 +1,8 @@
 using UnityEngine;
-using Enums;
+using Assets._Project.Scripts.Data.Enums;
 
-namespace _Project.Scripts.Data.Definitions
+
+namespace Assets._Project.Scripts.Data.Definitions
 {
     [CreateAssetMenu(fileName = "NewEnemy", menuName = "Blakewynn/Enemy Definition")]
     public class EnemyDefinition : ScriptableObject

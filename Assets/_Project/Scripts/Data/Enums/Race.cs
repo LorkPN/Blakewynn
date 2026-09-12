@@ -1,4 +1,4 @@
-namespace _Project.Scripts.Data.Enums
+namespace Assets._Project.Scripts.Data.Enums
 {
     public enum Race { 
         Human, 

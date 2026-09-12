@@ -1,9 +1,9 @@
 using UnityEngine;
-using Enums;
-using Systems;
+using Assets._Project.Scripts.Data.Enums;
+using Assets._Project.Scripts.Systems;
 
 
-namespace _Project.Scripts.Data.Definitions
+namespace Assets._Project.Scripts.Data.Definitions
 {
     [CreateAssetMenu(fileName = "GearDefinition", menuName = "Definitions/Gear")]
     public class GearDefinition : ScriptableObject

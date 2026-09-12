@@ -1,8 +1,8 @@
 using UnityEngine;
-using _Project.Scripts.Data.Enums;
+using Assets._Project.Scripts.Data.Enums;
 
 
-namespace _Project.Scripts.Data.Definitions
+namespace Assets._Project.Scripts.Data.Definitions
 {
     [CreateAssetMenu(fileName = "NewClass", menuName = "Blakewynn/Character Class")]
     public class CharacterClass : ScriptableObject

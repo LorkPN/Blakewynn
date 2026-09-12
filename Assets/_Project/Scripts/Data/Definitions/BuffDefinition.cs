@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-namespace _Project.Scripts.Data.Definitions
+namespace Assets._Project.Scripts.Data.Definitions
 {
     [CreateAssetMenu(fileName = "NewBuff", menuName = "Blakewynn/Buff Definition")]
     public class BuffDefinition : ScriptableObject

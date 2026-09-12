@@ -1,6 +1,8 @@
 using System;
+using Assets._Project.Scripts.Data.Definitions;
 
-namespace _Project.Scripts.Data.Runtime
+
+namespace Assets._Project.Scripts.Data.Runtime
 {
     [Serializable]
     public struct GachaPoolEntry

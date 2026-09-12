@@ -1,9 +1,8 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace _Project.Scripts.Data.Runtime
+namespace Assets._Project.Scripts.Data.Runtime
 {
     [Serializable]
     public class OwnedCharacter

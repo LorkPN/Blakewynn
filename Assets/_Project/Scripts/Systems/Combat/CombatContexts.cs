@@ -14,6 +14,9 @@ namespace Assets._Project.Scripts.Systems.Combat
         public CombatUnit caster;
         public SkillDefinition skill;
         public TargetLane resolvedTargetLane;    // mutable — a behavior can override the skill's default
+        public TargetPosition resolvedTargetPosition; // mutable — a behavior can override the skill's default
+        public CombatState combatState; // the current state of the fight, including both sides' formations
+        public TargetSide targetSide; // mutable — a behavior can override the skill's default
         public List<CombatUnit> resolvedTargets; // filled in by the targeting step, mutable by hooks
         public bool cancelled;                   // set true to veto activation entirely (e.g. a Disable effect)
     }

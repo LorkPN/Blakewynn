@@ -19,5 +19,7 @@ namespace Assets._Project.Scripts.Data.Definitions
         public float manaCost;
         public SkillEffectBehaviour[] effects; // the effects this skill applies when used
         public TargetLane targetLane; // the lane this skill targets when used
+        public TargetPosition targetPosition; // the position in the lane this skill targets when used
+        public TargetSide targetSide; // the side this skill targets when used
     }
 }

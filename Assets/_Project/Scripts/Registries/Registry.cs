@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace Assets._Project.Scripts.Systems.Registries
+namespace Assets._Project.Scripts.Registries
 {
     public class Registry<T>
     {

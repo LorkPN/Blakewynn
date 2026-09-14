@@ -1,7 +1,8 @@
 using UnityEngine;
+using Assets._Project.Scripts.Data.Definitions;
 
 
-namespace Assets._Project.Scripts.Data.Definitions
+namespace Assets._Project.Scripts.Registries
 {
     [CreateAssetMenu(fileName = "GameDatabase", menuName = "Blakewynn/Game Database")]
     public class GameDatabase : ScriptableObject

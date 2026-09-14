@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using Assets._Project.Scripts.Data.Definitions;
 
-namespace Assets._Project.Scripts.Systems.Registries
+namespace Assets._Project.Scripts.Registries
 {
     public class SkillRegistry
     {

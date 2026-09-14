@@ -20,5 +20,11 @@ namespace Assets._Project.Scripts.Systems.Combat
         public CombatUnit GetFront(int lane) => Lanes[lane].Count > 0 ? Lanes[lane][0] : null;
         public CombatUnit GetBack(int lane) => Lanes[lane].Count > 0 ? Lanes[lane][^1] : null;
         public IReadOnlyList<CombatUnit> GetAll(int lane) => Lanes[lane];
+        public bool TryAddUnit(int lane, CombatUnit unit)
+        {
+            if (Lanes[lane].Count >= 4) return false;
+            Lanes[lane].Add(unit);
+            return true;
+        }
     }
 }
